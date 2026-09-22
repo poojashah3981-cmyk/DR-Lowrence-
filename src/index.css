@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    color: #1e293b;
+    background-color: #ffffff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom styling for medical clean aesthetics */
+.bg-medical-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(14, 165, 233, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(14, 165, 233, 0.04) 1px, transparent 1px);
+}
+
+.text-navy-950 {
+  color: #0b192c;
+}
+
+.bg-navy-950 {
+  background-color: #0b192c;
+}
+
+.bg-navy-900 {
+  background-color: #0f2744;
+}
+
+.border-navy-800 {
+  border-color: #1e3a5f;
+}
